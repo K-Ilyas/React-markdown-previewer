@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+#title {
+  font-family: "Elsie", cursive;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#title::first-letter {
+  font-size: 2.5rem;
+  vertical-align: sub;
+  text-decoration: underline;
+  color: #f24b4b;
+}
+
+#navabr {
+  padding: 0;
+  background: linear-gradient(109.6deg, #9cfcf8 11.2%, #6e7bfb 91.1%);
+  border-bottom: 1px solid #d0d4d5;
+  margin-bottom: 2rem;
+  box-shadow: 4px 0px 5px 3px #879499;
+}
+
+.card-window > p {
+  padding: 0;
+  margin: 0;
+}
+
+.fa-free-code-camp {
+  padding-right: 10px;
+}
+
+.card {
+  box-shadow: 2px 2px 5px 1px #879499, -2px 2px 5px 1px #879499, -2px -2px 5px 1px #879499, 2px -2px 5px 1px #879499;
+  border-radius: 0;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  padding: 0px;
+  border-radius: 0px !important;
+  margin-bottom: -7px;
+}
+
+.card-window {
+  background: linear-gradient(109.6deg, #9cfcf8 11.2%, #6e7bfb 91.1%);
+  font-family: "Black Han Sans", sans-serif;
+  font-size: 1rem;
+  padding: 3px 5px;
+  border-radius: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p i {
+  font-weight: bold;
+}
+
+#editor {
+  border: none;
+  outline: none;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #dffffe;
+  min-height: 300px;
+}
+
+/*# sourceMappingURL=style.css.map */
